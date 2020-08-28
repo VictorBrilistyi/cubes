@@ -1,0 +1,29 @@
+{
+  "name": "task1",
+  "version": "1.0.0",
+  "description": "random cubes ",
+  "main": "intCubes_v2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/webpack",
+    "dev": "./node_modules/.bin/webpack --watch"
+  },
+  "keywords": [
+    "three",
+    "graphics",
+    "package"
+  ],
+  "author": "Brilistyi Victor",
+  "license": "ISC",
+  "dependencies": {
+    "three": "^0.118.1",
+    "three-orbitcontrols": "^2.110.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
